@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+
+#textbox {
+    color: crimson; 
+}
+
+button {
+    margin-top: 30px;
+}
