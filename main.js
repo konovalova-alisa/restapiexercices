@@ -25,7 +25,7 @@ function postOnSpreadsheet() {
         },
         redirect: 'follow', // manual, *follow, error
         // referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-        body: JSON.stringify({name: "Test Testsson"}) // body data type must match "Content-Type" header
+        body: JSON.stringify({"name": "Test Testsson", "userID" : "test.testsson", "Company" : "Testosteron Oy", "Email" : "test@testo.com"}) // body data type must match "Content-Type" header
     }
    );
 }
